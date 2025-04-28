@@ -114,7 +114,7 @@
 
   \begin{itemize}[itemsep=-2px, parsep=1pt]
     \noindent
-    TypeScript \hspace{8pt} \textbullet \hspace{8pt} JavaScript \hspace{8pt} \textbullet \hspace{8pt} NestJS \hspace{8pt} \textbullet \hspace{8pt} Next.js \hspace{8pt} \textbullet \hspace{8pt} React.js \hspace{8pt} \textbullet \hspace{8pt} Docker \hspace{8pt} \textbullet \hspace{8pt} AWS \hspace{8pt} \textbullet \hspace{8pt} SQL \hspace{8pt} \textbullet \hspace{8pt} MongoDB \hspace{8pt} \textbullet \hspace{8pt} PostgreSQL \hspace{8pt} \textbullet \hspace{8pt} Git \hspace{8pt} \textbullet \hspace{8pt} Solidity \hspace{8pt} \textbullet \hspace{8pt} Ethereum \hspace{8pt} \textbullet \hspace{8pt} Python \hspace{8pt} \textbullet \hspace{8pt} Kubernetes \hspace{8pt} \textbullet \hspace{8pt} NodeJs
+    TypeScript \hspace{8pt} \textbullet \hspace{8pt} JavaScript \hspace{8pt} \textbullet \hspace{8pt} NestJS \hspace{8pt} \textbullet \hspace{8pt} Next.js \hspace{8pt} \textbullet \hspace{8pt} React.js \hspace{8pt} \textbullet \hspace{8pt} Docker \hspace{8pt} \textbullet \hspace{8pt} AWS \hspace{8pt} \textbullet \hspace{8pt} SQL \hspace{8pt} \textbullet \hspace{8pt} MongoDB \hspace{8pt} \textbullet \hspace{8pt} PostgreSQL \hspace{8pt} \textbullet \hspace{8pt} Git \hspace{8pt} \textbullet \hspace{8pt} Solidity \hspace{8pt} \textbullet \hspace{8pt} Ethereum \hspace{8pt} \textbullet \hspace{8pt} Redis \hspace{8pt} \textbullet \hspace{8pt} Kafka \hspace{8pt} \textbullet \hspace{8pt} NodeJs
   \end{itemize}
 
   \section{Experience}
@@ -125,21 +125,30 @@
     \item Led the development of a project from inception to release, ensuring timely delivery and high-quality standards.
     \item Designed and implemented microservices architecture to enhance scalability and maintainability of the application.
     \item Developed and integrated solutions to ensure seamless connectivity between the frontend, backend, Solana programs, and various third-party services.
-    \item Played a key role in shaping product features and functionality through collaborative discussions and feedback loops with stakeholders.
-    \item Ideated and proposed a key feature that was successfully incorporated into the product and became widely popular among users.
+    \item Played a key role in shaping product features and functionality through collaborative discussions and feedback loops.
+    \item Ideated and developed key features that was successfully incorporated and became popular among users.
+    \item Tech Used: \textbf{Node.js} \textbf{NestJS}, \textbf{TypeScript}, \textbf{PostgreSQL},  \textbf{NextJs}, \textbf{AWS}, \textbf{Docker}, \textbf{Solana},  \textbf{Redis}, \textbf{Git}  
   \end{resume_list}
 
   \headingBf{Phaethon Technologies}{Feb 2022 -- Jan 2024}
   \headingIt{Full Stack Developer}{}
   \begin{resume_list}
-    \item Part of a team that built the project from the ground up.
     \item Assisted in creating smart contracts that conveyed millions of dollars.
     \item Actively participated in Frontend Development, collaborating on UI design and enhancing overall user experience.
     \item Integrated private node blockchain that made testing 50 percent faster.
     \item Developed and maintained backend services using NestJS.
-    \item Orchestrated the Dockerization of the entire codebase, optimizing deployment processes and ensuring seamless cross-environment compatibility.
-    \item Developed high-performance APIs that ensure seamless communication between services and optimize the flow of data within complex systems. 
+    \item Orchestrated the Dockerization of the entire codebase.
+    \item Tech Used: \textbf{Node.js}, \textbf{NestJS}, \textbf{TypeScript}, \textbf{PostgreSQL}, \textbf{MongoDb}, \textbf{NextJs}, \textbf{Solidity}, \textbf{Docker}, \textbf{Ethereum},  \textbf{Kafka}, \textbf{react}  
   \end{resume_list}
+
+  \headingBf{Chain Launch}{Oct 2024 -- present}
+  \headingIt{Freelance Full Stack Developer}{}
+  \begin{resume_list}
+    \item Led end-to-end development of full-stack applications, including frontend, backend, and blockchain integration.
+    \item Conducted research, system design, development, testing, and deployment to ensure successful project delivery.
+    \item Collaborated with clients across the US, Canada, and Europe, maintaining excellent communication through meetings and regular updates.
+    \item Delivered high-quality, scalable solutions while managing multiple contract-based projects simultaneously.
+    \item Tech Used: \textbf{Node.js}, \textbf{NestJS}, \textbf{TypeScript}, \textbf{PostgreSQL}, \textbf{MongoDb}, \textbf{NextJs}, \textbf{Solidity}, \textbf{Web3Js}, \textbf{Ethereum},  \textbf{Python}, \textbf{react}  
 
   \section{Education}
 
@@ -153,14 +162,12 @@
   \begin{resume_list}
     \item Developed a crypto trading bot with a subscription model for both individual and enterprise users.
     \item Integrated the bot to trade on multiple blockchain networks and token pairs.
-    \item Great UI/ UX for seamless user satisfaction.
     \item Scope for integrating different mev stratagies.
   \end{resume_list}
 
   \headingBf{Sudoku solver}{}
   \begin{resume_list}
     \item Designed and implemented an intuitive Sudoku-solving application featuring a backtracking algorithm.
-    \item  Developed a user-friendly interface, allowing users to solve Sudoku puzzles effortlessly with just a touch of a button.
     \item Demonstrated strong problem-solving skills and algorithmic proficiency in creating an efficient and seamless application for Sudoku enthusiasts.
     
   \end{resume_list}
@@ -168,7 +175,6 @@
   \section{Achievements}
   \headingBf{Second in Bonkathon }{ }
  \begin{resume_list}
-    \item Build station hosted by coinDcx.
     \item Won prizes with the Reclaim route.
  \end{resume_list}
   \headingBf{Hackathon Host - Reclaim X Catoff}{ }
@@ -177,4 +183,3 @@
  \end{resume_list}
 
 \end{document}
-
