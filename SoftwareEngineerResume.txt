@@ -2,11 +2,8 @@
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage{fontawesome5}
 \usepackage{multicol}
-\usepackage{bookmark}
 \usepackage{lastpage}
 
 \usepackage{CormorantGaramond}
@@ -17,12 +14,7 @@
 \definecolor{accentText}{HTML}{0e6e55}
 \definecolor{accentLine}{HTML}{a16f0b}
 
-\pagestyle{fancy}
-\fancyhf{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\urlstyle{same}
+\pagestyle{empty}
 
 \addtolength{\oddsidemargin}{-0.7in}
 \addtolength{\evensidemargin}{-0.5in}
@@ -33,57 +25,14 @@
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
 \setlength{\tabcolsep}{0pt}
-\setlength{\footskip}{3.7pt}
 \raggedbottom
 \raggedright
-
-\input{glyphtounicode}
-\pdfgentounicode=1
-
-\newcommand{\documentTitle}[2]{
-  \begin{center}
-    {\Huge\color{accentTitle} #1}
-    \vspace{10pt}
-    {\color{accentLine} \hrule}
-    \vspace{2pt}
-    \footnotesize{#2}
-    \vspace{2pt}
-    {\color{accentLine} \hrule}
-  \end{center}
-}
-
-\newcommand{\documentFooter}[1]{
-  \setlength{\footskip}{10.25pt}
-  \fancyfoot[C]{\footnotesize #1}
-}
-
-\newcommand{\numberedPages}{
-  \documentFooter{\thepage/\pageref{LastPage}}
-}
 
 \titleformat{\section}{
   \vspace{-5pt}
   \color{accentText}
   \raggedright\large\bfseries
 }{}{0em}{}[\color{accentLine}\titlerule]
-
-\newcommand{\tinysection}[1]{
-  \phantomsection
-  \addcontentsline{toc}{section}{#1}
-  {\large{\bfseries\color{accentText}#1} {\color{accentLine} |}}
-}
-
-\newcommand{\heading}[2]{
-  \hspace{10pt}#1\hfill#2\\
-}
-
-\newcommand{\headingBf}[2]{
-  \heading{\textbf{#1}}{\textbf{#2}}
-}
-
-\newcommand{\headingIt}[2]{
-  \heading{\textit{#1}}{\textit{#2}}
-}
 
 \newenvironment{resume_list}{
   \vspace{-7pt}
@@ -92,94 +41,89 @@
   \end{itemize}
 }
 
-\newcommand{\itemTitle}[1]{
-  \item[] \underline{#1}\vspace{4pt}
-}
-
 \renewcommand\labelitemi{--}
 
 \begin{document}
 
-  \documentTitle{Thomas Jose}{
-    \href{tel:9645731044}{\raisebox{-0.05\height} \faPhone\  9645731044} \hspace{1em}
-    \href{mailto:thomasjose875@gmail.com}{\raisebox{-0.15\height} \faEnvelope\ thomasjose875@gmail.com} \hspace{1em}
-    \href{https://linkedin.com/in/thomas-jose-b20504176/}{\raisebox{-0.15\height} \faLinkedin\ https://linkedin.com/in/thomas-jose-b20504176/ } \hspace{1em}
-    \href{https://github.com/thomas21-jquerry}{\raisebox{-0.15\height} \faGithub\ https://github.com/thomas21-jquerry}
-  }
+\begin{center}
+  {\Huge\color{accentTitle} Thomas Jose} \\[5pt]
+  \small
+  Phone: 9645731044 \quad
+  Email: thomasjose875@gmail.com \\
+  LinkedIn: linkedin.com/in/thomas-jose-b20504176 \quad
+  GitHub: github.com/thomas21-jquerry
+\end{center}
 
-  \tinysection{Summary}
-  Dedicated Software Developer with over 3 years of professional experience, I have played a pivotal role in bringing innovative software solutions to life. Was an integral part of a startup journey, contributing to the development and stabilization of a product from its initial concept to a successful, production-ready platform.
+\section*{Summary}
+Dedicated Software Developer with over 3 years of professional experience, I have played a pivotal role in bringing innovative software solutions to life. Was an integral part of a startup journey, contributing to the development and stabilization of a product from its initial concept to a successful, production-ready platform.
 
-  \section{Skills}
+\section*{Skills}
+\begin{itemize}[itemsep=-2px, parsep=1pt]
+  TypeScript, JavaScript, NestJS, Next.js, React.js, Docker, AWS, AngularJs, MongoDB, PostgreSQL, Git, Solidity, Ethereum, Redis, Kafka, NodeJs, SQL, Kubernetes, Jenkins
+\end{itemize}
 
-  \begin{itemize}[itemsep=-2px, parsep=1pt]
-    \noindent
-    TypeScript \hspace{8pt} \textbullet \hspace{8pt} JavaScript \hspace{8pt} \textbullet \hspace{8pt} NestJS \hspace{8pt} \textbullet \hspace{8pt} Next.js \hspace{8pt} \textbullet \hspace{8pt} React.js \hspace{8pt} \textbullet \hspace{8pt} Docker \hspace{8pt} \textbullet \hspace{8pt} AWS \hspace{8pt} \textbullet \hspace{8pt} AngularJs \hspace{8pt} \textbullet \hspace{8pt} MongoDB \hspace{8pt} \textbullet \hspace{8pt} PostgreSQL \hspace{8pt} \textbullet \hspace{8pt} Git \hspace{8pt} \textbullet \hspace{8pt} Solidity \hspace{8pt} \textbullet \hspace{8pt} Ethereum \hspace{8pt} \textbullet \hspace{8pt} Redis \hspace{8pt} \textbullet \hspace{8pt} Kafka \hspace{8pt} \textbullet \hspace{8pt} NodeJs \textbullet \hspace{8pt} SQL
-  \end{itemize}
+\section*{Experience}
+\textbf{Chain Launch} \hfill \textit{Oct 2024 -- Apr 2025} \\
+\textit{Co-founder \& Full Stack Developer}
+\begin{resume_list}
+  \item Co-founded and led the development of full-stack web3 applications, integrating frontend, backend, and blockchain.
+  \item Managed end-to-end project lifecycle: research, system design, development, testing, and deployment.
+  \item Served as the technical liaison for clients in the US, Canada, and Europe, ensuring timely communication and delivery.
+  \item Delivered high-quality, scalable solutions while managing multiple contract-based projects simultaneously.
+  \item Tech Used: Node.js, NestJS, TypeScript, MongoDb, NextJs, Solidity, Web3Js, Ethereum, Python, React.js
+\end{resume_list}
 
-  \section{Experience}
 
-  \headingBf{Catoff}{Feb 2024 -- Oct 2024}
-  \headingIt{Software Engineer}{}
-  \begin{resume_list}
-    \item Led and developed the backend of Catoff from initial concept to production, scaling to support thousands of active users.
-    \item Designed and implemented microservices architecture to enhance scalability and maintainability of the application.
-    \item Developed and integrated solutions to ensure seamless connectivity between the frontend, backend, Solana programs, and various third-party services.
-    \item Played a key role in shaping product features and functionality through collaborative discussions and feedback loops.
-    \item Ideated and developed key features that was successfully incorporated and became popular among users.
-    \item Tech Used: \textbf{Node.js} \textbf{NestJS}, \textbf{TypeScript}, \textbf{PostgreSQL},  \textbf{NextJs}, \textbf{AWS}, \textbf{Docker}, \textbf{Solana},  \textbf{Redis}, \textbf{Git}  
-  \end{resume_list}
+\textbf{Catoff} \hfill \textit{Feb 2024 -- Oct 2024} \\
+\textit{Software Engineer}
+\begin{resume_list}
+  \item Led and developed the backend of Catoff from initial concept to production, scaling to support thousands of active users.
+  \item Designed and implemented microservices architecture to enhance scalability and maintainability of the application.
+  \item Developed and integrated solutions to ensure seamless connectivity between the frontend, backend, Solana programs, and various third-party services.
+  \item Played a key role in shaping product features and functionality through collaborative discussions and feedback loops.
+  \item Ideated and developed key features that was successfully incorporated and became popular among users.
+  \item Tech Used: Node.js, NestJS, TypeScript, PostgreSQL, NextJs, AWS, Docker, Solana, Redis, Git
+\end{resume_list}
 
-  \headingBf{Phaethon Technologies}{Feb 2022 -- Jan 2024}
-  \headingIt{Full Stack Developer}{}
-  \begin{resume_list}
-    \item Assisted in creating smart contracts that conveyed millions of dollars.
-    \item Actively participated in Frontend Development, collaborating on UI design and enhancing overall user experience.
-    \item Integrated private node blockchain that made testing 50\% faster.
-    \item Developed and maintained backend services using NestJS.
-    \item Orchestrated the Dockerization of the entire codebase.
-    \item Tech Used: \textbf{Node.js}, \textbf{NestJS}, \textbf{TypeScript}, \textbf{PostgreSQL}, \textbf{MongoDb}, \textbf{NextJs}, \textbf{Solidity}, \textbf{Docker}, \textbf{Ethereum},  \textbf{Kafka}, \textbf{React.js}  
-  \end{resume_list}
+\textbf{Phaethon Technologies} \hfill \textit{Feb 2022 -- Jan 2024} \\
+\textit{Full Stack Developer}
+\begin{resume_list}
+  \item Assisted in creating smart contracts that conveyed millions of dollars.
+  \item Actively participated in Frontend Development, collaborating on UI design and enhancing overall user experience.
+  \item Integrated private node blockchain that made testing 50\% faster.
+  \item Developed and maintained backend services using NestJS.
+  \item Orchestrated the Dockerization of the entire codebase.
+  \item Tech Used: Node.js, NestJS, TypeScript, PostgreSQL, MongoDb, NextJs, Solidity, Docker, Ethereum, Kafka, React.js
+\end{resume_list}
 
-  \headingBf{Chain Launch}{Oct 2024 -- Present}
-  \headingIt{Freelance Full Stack Developer}{}
-  \begin{resume_list}
-    \item Led end-to-end development of full-stack applications, including frontend, backend, and blockchain integration.
-    \item Conducted research, system design, development, testing, and deployment to ensure successful project delivery.
-    \item Collaborated with clients across the US, Canada, and Europe, maintaining excellent communication through meetings and regular updates.
-    \item Delivered high-quality, scalable solutions while managing multiple contract-based projects simultaneously.
-    \item Tech Used: \textbf{Node.js}, \textbf{NestJS}, \textbf{TypeScript}, \textbf{MongoDb}, \textbf{NextJs}, \textbf{Solidity}, \textbf{Web3Js}, \textbf{Ethereum},  \textbf{Python}, \textbf{React.js}  
 
-  \section{Education}
+\section*{Education}
+\textbf{Cochin University of Science and Technology} \\
+Bachelor of Technology - Computer Science (2018 - 2022)
 
-  \headingBf{Cochin University of Science and Technology}{}
-  \headingIt{Bachelor of Technology - Computer Science}{}
-  \headingIt{2018 - 2022}{}
+\section*{Projects}
+\textbf{Crypto Trading Bot}
+\begin{resume_list}
+  \item Developed a crypto trading bot with a subscription model for both individual and enterprise users.
+  \item Integrated the bot to trade on multiple blockchain networks and token pairs.
+  \item Scope for integrating different MEV strategies.
+\end{resume_list}
 
-  \section{Projects}
+\textbf{Sudoku Solver}
+\begin{resume_list}
+  \item Designed and implemented an intuitive Sudoku-solving application featuring a backtracking algorithm.
+  \item Demonstrated strong problem-solving skills and algorithmic proficiency.
+\end{resume_list}
 
-  \headingBf{Crypto Trading Bot}{}
-  \begin{resume_list}
-    \item Developed a crypto trading bot with a subscription model for both individual and enterprise users.
-    \item Integrated the bot to trade on multiple blockchain networks and token pairs.
-    \item Scope for integrating different mev stratagies.
-  \end{resume_list}
+\section*{Achievements}
+\textbf{Second in Bonkathon}
+\begin{resume_list}
+  \item Won prizes with the Reclaim route.
+\end{resume_list}
 
-  \headingBf{Sudoku solver}{}
-  \begin{resume_list}
-    \item Designed and implemented an intuitive Sudoku-solving application featuring a backtracking algorithm.
-    \item Demonstrated strong problem-solving skills and algorithmic proficiency in creating an efficient and seamless application for Sudoku enthusiasts.
-    
-  \end{resume_list}
-
-  \section{Achievements}
-  \headingBf{Second in Bonkathon }{ }
- \begin{resume_list}
-    \item Won prizes with the Reclaim route.
- \end{resume_list}
-  \headingBf{Hackathon Host - Reclaim X Catoff}{ }
- \begin{resume_list}
-    \item Organized and hosted 12 hr hackathon.
- \end{resume_list}
+\textbf{Hackathon Host - Reclaim X Catoff}
+\begin{resume_list}
+  \item Organized and hosted 12-hour hackathon.
+\end{resume_list}
 
 \end{document}
